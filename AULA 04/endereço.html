@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço de entrega</title>
+</head>
+<body>
+    <div style="font-family:sans-serif;">
+    <p>Preencha os dados abaixo:</p>
+    <form method="get" action="servidor">
+        <label for="rua">Rua:</label>
+        <input type="text" name="rua" style="width:170px; margin-bottom: 15px;" required> <br>
+        <label for="num">Número:</label>
+        <input type="number" name="num" style="width: 30px; margin-bottom: 15px;" required> <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" style="width: 100px; margin-bottom: 15px;" required> <br>
+        <label for="UF">Estado:</label> <br>
+        <Select name="UF" size="8" style="margin-top:10px;" required>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SE">Tocantins</option>
+            <option value="TO">Tocantins</option>
+        </Select> <br> <br>
+        <button type="submit" style="margin-left:43px;">Enviar</button>
+    </form>
+    </div>
+</body>
+</html>
